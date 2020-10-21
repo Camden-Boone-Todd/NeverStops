@@ -20,7 +20,7 @@ class SuperStackTest {
 		SuperStack<Integer> stack = new SuperStack<>(1);
 		boolean result = stack.isEmpty();
 		assertTrue(result);
-		
+
 		stack.push(new Integer(0));
 		result = stack.isEmpty();
 		assertFalse(result);
